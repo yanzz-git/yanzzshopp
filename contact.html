@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">Yanzz Shop</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <h3>Kami sangat senang ketika mendengar notifikasi pesanan dari anda !</h3>
+      <p>Segala penyalahgunaan pemesanan tidak akan direspon oleh admin.</p>
+
+      <!-- Contact Form -->
+      <form action="https://formspree.io/f/meogzarp" method="POST" class="contact-form">
+        <label for="name">Nama :</label>
+        <input type="text" id="name" name="name" placeholder="Masukkan nama agar kami mengenal anda" required>
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" placeholder="Masukkan email agar kami bisa menghubungi anda" required>
+
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" rows="4" placeholder="Apa yang ingin kamu pesan?" required></textarea>
+
+        <button type="submit" class="cta-btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 YanzzLZ. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
